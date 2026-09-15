@@ -1,0 +1,7 @@
+[2026-09-15T19:17:25Z] === AST ITERATION 1 START | repo=mhammond/pywin32 sha=58f58184 ===
+[2026-09-15T19:17:25Z] [iter=1] PHASE START: ast repo=mhammond/pywin32 sha=58f58184
+[2026-09-15T19:17:25Z] [iter=1] Building AST aggregate chunks
+[2026-09-15T19:27:31Z] [iter=1] AST chunks built count=2 triples=10183073
+[2026-09-15T19:27:31Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/58f58184e4374cca9d177a5ca31c95705367df68/.complete
+[2026-09-15T19:27:31Z] [iter=1] PHASE END: ast elapsed_s=606 elapsed_min=10.1
+[2026-09-15T19:27:31Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
