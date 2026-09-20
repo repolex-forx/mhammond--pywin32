@@ -1,0 +1,134 @@
+[2026-09-20T11:08:23Z] === ENRICH ITERATION 5 START | repo=mhammond/pywin32 sha=ee8ff7ba ===
+[2026-09-20T11:08:23Z] [iter=5] PHASE START: enrich repo=mhammond/pywin32 sha=ee8ff7ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ee8ff7ba-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ee8ff7ba36a11e59732c55b5d01434a16a90818d.nq.gz
+[2026-09-20T11:08:23Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-20T11:10:13Z] [iter=5] AST store loaded triples=10469515 load_secs=105 mem_mb=1046 MB
+[2026-09-20T11:10:13Z] [iter=5] Step 2: Finding LSP targets mem_mb=1046 MB
+[2026-09-20T11:10:30Z] [iter=5] LSP targets found call_sites=75775 imports=0 extends=600 implements=0 secs=18
+[2026-09-20T11:10:37Z] [iter=5] Loaded checkpoint partial graph triples=162645
+[2026-09-20T11:10:48Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1046 MB
+[2026-09-20T11:11:57Z] [iter=5] Position index built positions=759954 nodes_with_types=945839 secs=69 mem_mb=2100 MB
+[2026-09-20T11:11:57Z] [iter=5] Step 3: Starting LSP resolution mem_mb=2100 MB already_completed_types=[] already_completed_files=653
+[2026-09-20T11:11:57Z] [iter=5] Resolving target type target_type=call_site count=75775
+[2026-09-20T11:12:01Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=0 resolved=0 errors=0 current=com/win32com/src/extensions/PyIPropertyStorage.cpp
+[2026-09-20T11:12:57Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=4.6 files_done=2 resolved=0 errors=13 current=Pythonwin/Scintilla/src/LexOpal.cxx
+[2026-09-20T11:14:50Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=5 resolved=22 errors=39 current=Pythonwin/Scintilla/src/LexErlang.cxx
+[2026-09-20T11:15:55Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=9 resolved=25 errors=167 current=Pythonwin/Scintilla/src/LexCrontab.cxx
+[2026-09-20T11:16:34Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=8.2 files_done=10 resolved=29 errors=176 current=com/win32comext/axscript/src/GUIDS.H
+[2026-09-20T11:17:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=12 resolved=36 errors=191 current=com/win32comext/shell/src/PyIExplorerBrowser.cpp
+[2026-09-20T11:18:57Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=13 resolved=36 errors=209 current=Pythonwin/Scintilla/src/LexBasic.cxx
+[2026-09-20T11:23:00Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=14 resolved=54 errors=265 current=Pythonwin/Scintilla/src/LexCLW.cxx
+[2026-09-20T11:26:02Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=17.6 files_done=15 resolved=105 errors=307 current=com/win32comext/taskscheduler/src/taskscheduler.cpp
+[2026-09-20T11:31:30Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=16 resolved=105 errors=383 current=com/win32comext/shell/src/PyICopyHook.cpp
+[2026-09-20T11:34:58Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=26.6 files_done=19 resolved=105 errors=431 current=Pythonwin/win32assoc.cpp
+[2026-09-20T11:36:08Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=27.7 files_done=20 resolved=105 errors=447 current=Pythonwin/win32cmd.cpp
+[2026-09-20T11:42:09Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=33.8 files_done=22 resolved=112 errors=530 current=com/win32com/src/extensions/PyIEnumConnections.cpp
+[2026-09-20T11:42:52Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=34.5 files_done=27 resolved=112 errors=540 current=Pythonwin/Scintilla/src/LexAsm.cxx
+[2026-09-20T11:44:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=35.8 files_done=28 resolved=119 errors=558 current=com/win32com/src/extensions/PyIPersist.cpp
+[2026-09-20T11:47:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=38.7 files_done=32 resolved=119 errors=599 current=com/win32comext/shell/src/PyIShellIconOverlay.cpp
+[2026-09-20T11:47:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=39.2 files_done=34 resolved=119 errors=606 current=Pythonwin/Scintilla/src/LexLua.cxx
+[2026-09-20T11:51:08Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=42.8 files_done=35 resolved=127 errors=655 current=com/win32com/src/MiscTypes.cpp
+[2026-09-20T11:51:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=43.3 files_done=37 resolved=127 errors=663 current=Pythonwin/Scintilla/src/LexMySQL.cxx
+[2026-09-20T11:54:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=46.3 files_done=38 resolved=145 errors=705 current=com/win32comext/axcontrol/src/PyIOleInPlaceUIWindow.cpp
+[2026-09-20T11:55:14Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=46.8 files_done=40 resolved=145 errors=712 current=Pythonwin/win32win.h
+[2026-09-20T11:58:03Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=49.7 files_done=43 resolved=147 errors=751 current=com/win32comext/axdebug/src/PyIActiveScriptSiteDebug.cpp
+[2026-09-20T12:02:23Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=54.0 files_done=45 resolved=158 errors=811 current=win32/src/PerfMon/PerfObjectType.cpp
+[2026-09-20T12:02:54Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=54.5 files_done=46 resolved=158 errors=818 current=com/win32comext/axscript/src/AXScript.cpp
+[2026-09-20T12:05:58Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=57.6 files_done=47 resolved=158 errors=860 current=Pythonwin/pythonview.cpp
+[2026-09-20T12:07:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=58.7 files_done=48 resolved=158 errors=876 current=Pythonwin/win32oleDlgInsert.cpp
+[2026-09-20T12:07:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=59.3 files_done=49 resolved=158 errors=884 current=com/win32comext/axdebug/src/PyIDebugStackFrame.cpp
+[2026-09-20T12:08:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=60.2 files_done=52 resolved=158 errors=897 current=com/win32com/src/extensions/PyGStream.cpp
+[2026-09-20T12:10:52Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=62.5 files_done=54 resolved=167 errors=928 current=isapi/src/Utils.cpp
+[2026-09-20T12:12:48Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=64.4 files_done=56 resolved=167 errors=955 current=isapi/src/ControlBlock.h
+[2026-09-20T12:16:20Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=67.9 files_done=58 resolved=181 errors=1004 current=com/win32com/src/PyIUnknown.cpp
+[2026-09-20T12:16:55Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=68.5 files_done=61 resolved=181 errors=1012 current=Pythonwin/Scintilla/src/LexVB.cxx
+[2026-09-20T12:19:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=71.0 files_done=62 resolved=192 errors=1046 current=com/win32com/src/extensions/PyIOleWindow.cpp
+[2026-09-20T12:22:01Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=73.6 files_done=64 resolved=196 errors=1083 current=com/win32com/src/extensions/PyIPersistStream.cpp
+[2026-09-20T12:24:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=76.4 files_done=66 resolved=196 errors=1121 current=com/win32comext/axdebug/src/PyIApplicationDebugger.cpp
+[2026-09-20T12:30:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=82.0 files_done=68 resolved=198 errors=1199 current=com/win32comext/authorization/src/authorization.cpp
+[2026-09-20T12:32:05Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=83.7 files_done=70 resolved=198 errors=1223 current=Pythonwin/Scintilla/src/PropSet.cxx
+[2026-09-20T12:32:44Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=84.3 files_done=71 resolved=207 errors=1232 current=Pythonwin/win32tooltip.cpp
+[2026-09-20T12:33:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=85.2 files_done=72 resolved=207 errors=1244 current=com/win32comext/axcontrol/src/PyISpecifyPropertyPages.cpp
+[2026-09-20T12:37:14Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=88.8 files_done=74 resolved=209 errors=1294 current=com/win32com/src/extensions/PyIEnumSTATPROPSTG.cpp
+[2026-09-20T12:38:15Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=89.9 files_done=76 resolved=209 errors=1308 current=com/win32comext/axscript/src/AXScript.h
+[2026-09-20T12:40:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=91.7 files_done=80 resolved=217 errors=1334 current=Pythonwin/win32RichEdit.cpp
+[2026-09-20T12:40:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=92.5 files_done=81 resolved=217 errors=1344 current=Pythonwin/Scintilla/src/DocumentAccessor.cxx
+[2026-09-20T12:42:14Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=93.8 files_done=82 resolved=217 errors=1363 current=com/win32comext/directsound/src/PyIDirectSoundCaptureBuffer.cpp
+[2026-09-20T12:42:48Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=94.4 files_done=84 resolved=217 errors=1371 current=com/win32comext/bits/src/PyIBackgroundCopyJob2.cpp
+[2026-09-20T12:43:28Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=95.1 files_done=87 resolved=217 errors=1380 current=com/win32comext/axcontrol/src/PyIOleControlSite.cpp
+[2026-09-20T12:43:58Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=95.6 files_done=88 resolved=217 errors=1387 current=Pythonwin/Scintilla/src/LexMPT.cxx
+[2026-09-20T12:45:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=96.7 files_done=89 resolved=218 errors=1403 current=Pythonwin/Scintilla/src/LexEScript.cxx
+[2026-09-20T12:48:01Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=99.6 files_done=90 resolved=241 errors=1443 current=com/win32com/src/extensions/PyGPersistStream.cpp
+[2026-09-20T12:48:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=100.2 files_done=92 resolved=241 errors=1451 current=com/win32com/src/include/PythonCOMServer.h
+[2026-09-20T12:49:15Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=100.9 files_done=94 resolved=252 errors=1460 current=Pythonwin/Scintilla/include/Platform.h
+[2026-09-20T12:50:20Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=101.9 files_done=95 resolved=252 errors=1475 current=Pythonwin/Scintilla/src/LexMagik.cxx
+[2026-09-20T12:54:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=106.3 files_done=96 resolved=261 errors=1535 current=com/win32com/src/univgw.cpp
+[2026-09-20T12:55:46Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=107.4 files_done=97 resolved=264 errors=1550 current=win32/src/win32profilemodule.cpp
+[2026-09-20T12:58:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=110.0 files_done=98 resolved=268 errors=1586 current=com/win32com/src/PyStorage.cpp
+[2026-09-20T12:59:40Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=111.3 files_done=100 resolved=268 errors=1604 current=win32/src/mmapfilemodule.cpp
+[2026-09-20T13:01:05Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=112.7 files_done=101 resolved=268 errors=1623 current=com/win32comext/bits/src/PyIBackgroundCopyFile2.cpp
+[2026-09-20T13:02:18Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=113.9 files_done=103 resolved=268 errors=1639 current=Pythonwin/Scintilla/src/LexSpice.cxx
+[2026-09-20T13:05:15Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=116.9 files_done=104 resolved=274 errors=1678 current=com/win32comext/axscript/src/PyGObjectSafety.cpp
+[2026-09-20T13:08:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=119.8 files_done=106 resolved=277 errors=1718 current=com/win32com/src/extensions/PyIEnumConnectionPoints.cpp
+[2026-09-20T13:08:40Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=120.3 files_done=108 resolved=277 errors=1725 current=com/win32comext/shell/src/PyIExplorerBrowserEvents.cpp
+[2026-09-20T13:09:11Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=120.8 files_done=109 resolved=277 errors=1732 current=Pythonwin/pythonwin.cpp
+[2026-09-20T13:10:12Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=121.8 files_done=111 resolved=277 errors=1746 current=com/win32comext/directsound/src/PyIDirectSoundCapture.cpp
+[2026-09-20T13:10:59Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=122.6 files_done=113 resolved=277 errors=1757 current=com/win32com/src/extensions/PyGPersistStorage.cpp
+[2026-09-20T13:13:32Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=116 resolved=277 errors=1854 current=com/win32comext/shell/src/PyIDefaultExtractIconInit.cpp
+[2026-09-20T13:14:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=126.5 files_done=121 resolved=277 errors=1872 current=Pythonwin/Scintilla/src/LexInno.cxx
+[2026-09-20T13:18:27Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=130.1 files_done=124 resolved=296 errors=1974 current=com/win32comext/axdebug/src/PyIDebugApplicationNode.cpp
+[2026-09-20T13:19:01Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=130.6 files_done=125 resolved=296 errors=1982 current=com/win32com/src/extensions/PyIEnumCATEGORYINFO.cpp
+[2026-09-20T13:20:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=131.7 files_done=129 resolved=296 errors=1997 current=com/win32comext/axdebug/src/PyIDebugDocumentTextEvents.cpp
+[2026-09-20T13:20:42Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=132.3 files_done=131 resolved=296 errors=2005 current=Pythonwin/Scintilla/src/Document.h
+[2026-09-20T13:23:06Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=134.7 files_done=134 resolved=306 errors=2038 current=Pythonwin/Scintilla/src/LexKix.cxx
+[2026-09-20T13:24:50Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=136.4 files_done=135 resolved=307 errors=2062 current=com/win32comext/shell/src/PyIDockingWindow.cpp
+[2026-09-20T13:25:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=137.5 files_done=137 resolved=307 errors=2076 current=Pythonwin/win32rgn.cpp
+[2026-09-20T13:26:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=138.0 files_done=138 resolved=307 errors=2083 current=com/win32com/src/extensions/PyIEnumFORMATETC.cpp
+[2026-09-20T13:27:44Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=139.3 files_done=140 resolved=307 errors=2102 current=com/win32comext/axdebug/src/PyIDebugApplicationThread.cpp
+[2026-09-20T13:28:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=140.2 files_done=146 resolved=307 errors=2114 current=win32/src/PerfMon/MappingManager.cpp
+[2026-09-20T13:30:59Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=142.6 files_done=149 resolved=318 errors=2147 current=Pythonwin/ddemodule.cpp
+[2026-09-20T13:32:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=144.3 files_done=150 resolved=318 errors=2171 current=com/win32comext/axdebug/src/PyIEnumDebugExpressionContexts.cpp
+[2026-09-20T13:37:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=149.0 files_done=154 resolved=319 errors=2235 current=Pythonwin/pythoncbar.h
+[2026-09-20T13:37:57Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=149.6 files_done=158 resolved=319 errors=2243 current=com/TestSources/PyCOMTest/DSCArrayTest.h
+[2026-09-20T13:38:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=150.2 files_done=161 resolved=319 errors=2252 current=com/win32comext/shell/src/PyIShellFolder2.cpp
+[2026-09-20T13:39:37Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=151.2 files_done=162 resolved=319 errors=2266 current=com/win32com/src/include/PyFactory.h
+[2026-09-20T13:40:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=151.7 files_done=168 resolved=319 errors=2273 current=Pythonwin/win32ui.h
+[2026-09-20T13:42:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=154.0 files_done=170 resolved=323 errors=2304 current=com/win32comext/axcontrol/src/PyIOleClientSite.cpp
+[2026-09-20T13:43:22Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=155.0 files_done=171 resolved=323 errors=2318 current=com/win32comext/axcontrol/src/PyIOleInPlaceActiveObject.cpp
+[2026-09-20T13:43:52Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=155.5 files_done=174 resolved=323 errors=2325 current=win32/src/PerfMon/PerfCounterDefn.cpp
+[2026-09-20T13:44:35Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=156.2 files_done=176 resolved=323 errors=2335 current=Pythonwin/Scintilla/src/ViewStyle.cxx
+[2026-09-20T13:45:27Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=157.1 files_done=177 resolved=326 errors=2347 current=Pythonwin/Scintilla/src/LexPowerShell.cxx
+[2026-09-20T13:47:23Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=159.0 files_done=178 resolved=327 errors=2374 current=Pythonwin/win32context.cpp
+[2026-09-20T13:47:58Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=159.6 files_done=182 resolved=327 errors=2382 current=win32/src/PySID.cpp
+[2026-09-20T13:48:28Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=160.1 files_done=185 resolved=327 errors=2389 current=com/win32comext/axscript/src/PyIObjectSafety.cpp
+[2026-09-20T13:49:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=161.5 files_done=193 resolved=327 errors=2408 current=com/win32comext/axcontrol/src/PyIOleInPlaceSiteEx.h
+[2026-09-20T13:50:43Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=162.3 files_done=194 resolved=327 errors=2420 current=win32/src/PyWinObjects.h
+[2026-09-20T13:51:13Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=162.8 files_done=205 resolved=328 errors=2439 current=Pythonwin/Scintilla/src/LexAPDL.cxx
+[2026-09-20T13:53:36Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=165.2 files_done=206 resolved=335 errors=2472 current=Pythonwin/win32dlgbar.cpp
+[2026-09-20T13:55:38Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=167.2 files_done=211 resolved=335 errors=2500 current=com/win32comext/axscript/src/PyGActiveScriptParse.cpp
+[2026-09-20T13:56:47Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=168.4 files_done=215 resolved=335 errors=2516 current=com/win32com/src/extensions/PyIPersistStreamInit.cpp
+[2026-09-20T13:59:10Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=170.8 files_done=217 resolved=335 errors=2549 current=com/win32comext/axdebug/src/PyIDebugSessionProvider.cpp
+[2026-09-20T13:59:40Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=171.3 files_done=220 resolved=335 errors=2556 current=com/win32comext/shell/src/shell_pch.h
+[2026-09-20T14:00:11Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=171.8 files_done=224 resolved=335 errors=2563 current=com/win32comext/axdebug/src/PyIDebugApplicationNodeEvents.cpp
+[2026-09-20T14:00:54Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=172.5 files_done=227 resolved=335 errors=2573 current=com/win32comext/shell/src/PyIEmptyVolumeCacheCallBack.cpp
+[2026-09-20T14:02:38Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=174.2 files_done=236 resolved=335 errors=2597 current=com/win32comext/shell/src/PyIExplorerCommandProvider.cpp
+[2026-09-20T14:03:08Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=174.8 files_done=239 resolved=335 errors=2604 current=Pythonwin/win32hl.h
+[2026-09-20T14:03:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=175.3 files_done=243 resolved=335 errors=2611 current=Pythonwin/Scintilla/src/Indicator.cxx
+[2026-09-20T14:05:14Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=176.8 files_done=244 resolved=335 errors=2633 current=Pythonwin/Scintilla/src/CellBuffer.h
+[2026-09-20T14:05:44Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=177.3 files_done=250 resolved=336 errors=2640 current=Pythonwin/Scintilla/src/CharClassify.cxx
+[2026-09-20T14:06:14Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=177.9 files_done=253 resolved=337 errors=2647 current=com/TestSources/PyCOMTest/Connect.cpp
+[2026-09-20T14:06:45Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=178.4 files_done=260 resolved=337 errors=2654 current=Pythonwin/win32gdi.h
+[2026-09-20T14:08:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=180.0 files_done=267 resolved=337 errors=2676 current=com/win32comext/directsound/src/PyDSCBCAPS.cpp
+[2026-09-20T14:08:51Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=180.5 files_done=269 resolved=337 errors=2683 current=com/win32comext/shell/src/PyIPersistFolder.cpp
+[2026-09-20T14:09:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=181.0 files_done=275 resolved=337 errors=2690 current=Pythonwin/ddeitem.cpp
+[2026-09-20T14:09:56Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=181.5 files_done=279 resolved=337 errors=2698 current=com/win32com/src/include/PyIStream.h
+[2026-09-20T14:10:26Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=182.1 files_done=290 resolved=337 errors=2705 current=Pythonwin/pythonRichEditCntr.h
+[2026-09-20T14:11:01Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=182.6 files_done=299 resolved=337 errors=2713 current=Pythonwin/win32oleDlgs.cpp
+[2026-09-20T14:11:32Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=183.1 files_done=308 resolved=337 errors=2720 current=com/win32comext/axdebug/src/PyIDebugStackFrameSnifferEx.h
+[2026-09-20T14:12:21Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=184.0 files_done=317 resolved=339 errors=2730 current=com/win32com/test/testxslt.js
+[2026-09-20T14:12:21Z] [iter=5] Target type resolved target_type=call_site resolved=345 errors=2730 secs=10824 mem_mb=2136 MB
+[2026-09-20T14:12:21Z] [iter=5] Resolving target type target_type=extends_clause count=600
+[2026-09-20T14:12:26Z] [iter=5] Target type resolved target_type=extends_clause resolved=513 errors=0 secs=5 mem_mb=2136 MB
+[2026-09-20T14:12:53Z] [iter=5] Step 5: Writing final enrichment file triples=391292
+[2026-09-20T14:13:01Z] [iter=5] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ee8ff7ba36a11e59732c55b5d01434a16a90818d.nq.gz size_kb=10261
+[2026-09-20T14:13:01Z] [iter=5] Checkpoint cleared (enrichment complete)
+[2026-09-20T14:13:01Z] [iter=5] PHASE END: enrich elapsed_s=11078 elapsed_min=184.6 total_triples=391292
