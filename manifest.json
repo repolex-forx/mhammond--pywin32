@@ -11621,6 +11621,21 @@
         "blob/502f771ecbc908a61be904fdd1d2049fe001b980.nq.gz",
         "blob/c23bc724f5475abc288d9b4511cea9377d2b9db8.nq.gz",
         "blob/54dbcd122c339d7dbced94c834ee96556cce7774.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8b328dffac71b7afaf2d72f47c4048f27a32f6c8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/_distutils/_modified.py"
+        }
       ]
     }
   ],
