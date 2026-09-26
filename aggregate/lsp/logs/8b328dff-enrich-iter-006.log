@@ -1,0 +1,49 @@
+[2026-09-26T00:33:38Z] === ENRICH ITERATION 6 START | repo=mhammond/pywin32 sha=8b328dff ===
+[2026-09-26T00:33:38Z] [iter=6] PHASE START: enrich repo=mhammond/pywin32 sha=8b328dff runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/8b328dff-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/8b328dffac71b7afaf2d72f47c4048f27a32f6c8.nq.gz
+[2026-09-26T00:33:38Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-26T00:37:15Z] [iter=6] AST store loaded triples=12873194 load_secs=212 mem_mb=1077 MB
+[2026-09-26T00:37:15Z] [iter=6] Step 2: Finding LSP targets mem_mb=1077 MB
+[2026-09-26T00:37:32Z] [iter=6] LSP targets found call_sites=94883 imports=0 extends=767 implements=0 secs=18
+[2026-09-26T00:37:37Z] [iter=6] Loaded checkpoint partial graph triples=134030
+[2026-09-26T00:37:48Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1077 MB
+[2026-09-26T00:38:47Z] [iter=6] Position index built positions=936085 nodes_with_types=1164543 secs=59 mem_mb=2310 MB
+[2026-09-26T00:38:47Z] [iter=6] Step 3: Starting LSP resolution mem_mb=2310 MB already_completed_types=[] already_completed_files=718
+[2026-09-26T00:38:47Z] [iter=6] Resolving target type target_type=call_site count=94883
+[2026-09-26T00:38:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=0 resolved=0 errors=0 current=com/win32comext/mapi/emsabtags.py
+[2026-09-26T01:39:31Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=65.9 files_done=1 resolved=0 errors=814 current=com/win32comext/mapi/mapitags.py
+[2026-09-26T02:45:13Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=131.6 files_done=2 resolved=0 errors=1697 current=com/win32com/test/testPyComTest.py
+[2026-09-26T02:59:17Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=145.7 files_done=3 resolved=97 errors=1887 current=com/win32com/test/testPersist.py
+[2026-09-26T03:00:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=146.5 files_done=4 resolved=131 errors=1898 current=win32/test/test_security.py
+[2026-09-26T03:02:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=148.5 files_done=6 resolved=170 errors=1925 current=win32/Lib/win32rcparser.py
+[2026-09-26T03:09:31Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=155.9 files_done=7 resolved=272 errors=2025 current=Pythonwin/pywin/framework/scriptutils.py
+[2026-09-26T03:12:10Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=158.5 files_done=8 resolved=364 errors=2058 current=win32/Demos/security/security_enums.py
+[2026-09-26T03:13:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=160.3 files_done=9 resolved=373 errors=2082 current=Pythonwin/pywin/idle/CallTips.py
+[2026-09-26T03:14:54Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=161.3 files_done=10 resolved=393 errors=2095 current=win32/Lib/win32gui_struct.py
+[2026-09-26T03:18:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=165.1 files_done=11 resolved=458 errors=2147 current=com/win32comext/shell/demos/explorer_browser.py
+[2026-09-26T03:21:38Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=168.0 files_done=13 resolved=531 errors=2185 current=adodbapi/test/dbapi20.py
+[2026-09-26T03:24:42Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=171.1 files_done=14 resolved=708 errors=2226 current=Pythonwin/pywin/Demos/app/basictimerapp.py
+[2026-09-26T03:26:15Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=172.6 files_done=15 resolved=731 errors=2247 current=com/win32com/client/util.py
+[2026-09-26T03:26:51Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=173.2 files_done=16 resolved=741 errors=2255 current=com/win32comext/axdebug/codecontainer.py
+[2026-09-26T03:28:59Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=175.3 files_done=17 resolved=770 errors=2284 current=win32/Demos/security/setsecurityinfo.py
+[2026-09-26T03:29:53Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=176.2 files_done=20 resolved=796 errors=2296 current=com/win32com/test/util.py
+[2026-09-26T03:31:00Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=177.4 files_done=21 resolved=843 errors=2311 current=isapi/simple.py
+[2026-09-26T03:33:49Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=180.2 files_done=24 resolved=970 errors=2348 current=win32/Lib/regutil.py
+[2026-09-26T03:36:01Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=182.4 files_done=25 resolved=982 errors=2378 current=com/win32com/client/gencache.py
+[2026-09-26T03:40:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=186.4 files_done=26 resolved=1090 errors=2432 current=Pythonwin/pywin/Demos/ocx/msoffice.py
+[2026-09-26T03:40:42Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=187.1 files_done=27 resolved=1092 errors=2441 current=Pythonwin/pywin/idle/IdleHistory.py
+[2026-09-26T03:41:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=187.6 files_done=28 resolved=1101 errors=2448 current=com/win32comext/shell/demos/servers/folder_view.py
+[2026-09-26T03:48:32Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=194.9 files_done=29 resolved=1148 errors=2547 current=Pythonwin/pywin/scintilla/configui.py
+[2026-09-26T03:51:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=198.1 files_done=30 resolved=1155 errors=2590 current=Pythonwin/pywin/Demos/openGLDemo.py
+[2026-09-26T03:52:59Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=199.3 files_done=31 resolved=1162 errors=2607 current=com/win32com/test/testall.py
+[2026-09-26T03:54:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=200.6 files_done=32 resolved=1231 errors=2624 current=Pythonwin/pywin/test/_exetestscript.py
+[2026-09-26T03:57:44Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=204.1 files_done=34 resolved=1307 errors=2671 current=com/win32comext/directsound/test/ds_test.py
+[2026-09-26T04:01:31Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=207.9 files_done=36 resolved=1429 errors=2722 current=win32/test/test_win32profile.py
+[2026-09-26T04:02:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=208.7 files_done=38 resolved=1440 errors=2733 current=Pythonwin/pywin/idle/AutoExpand.py
+[2026-09-26T04:13:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=219.4 files_done=40 resolved=1507 errors=2878 current=com/win32com/makegw/makegwparse.py
+[2026-09-26T04:18:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=224.8 files_done=41 resolved=1577 errors=2951 current=Pythonwin/pywin/Demos/app/customprint.py
+[2026-09-26T04:19:15Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=225.6 files_done=42 resolved=1580 errors=2962 current=com/win32com/client/combrowse.py
+[2026-09-26T04:21:10Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=227.5 files_done=43 resolved=1647 errors=2988 current=adodbapi/test/adodbapitest.py
+[2026-09-26T04:33:52Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=761 new_files_this_iter=43 mem_mb=2372 MB
+[2026-09-26T04:33:52Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/8b328dffac71b7afaf2d72f47c4048f27a32f6c8.nq.gz triples=159070
+[2026-09-26T04:33:54Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-09-26T04:33:54Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=14414 elapsed_min=240.2 files_completed=761
